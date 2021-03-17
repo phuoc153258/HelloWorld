@@ -1,0 +1,19 @@
+h1{
+    color: red;
+}
+table,th,tr,td
+{
+    border: 1px solid black;
+}
+table,th
+{
+    color: white;
+    background-color: red;
+}
+body {
+    padding: 75px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
