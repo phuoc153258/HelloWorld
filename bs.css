@@ -1,0 +1,26 @@
+.h2
+{
+    text-align: center; 
+    color: #2858ef;
+}
+
+.a
+{
+    border: none;
+}
+.b>td
+{
+    border-left: hidden;
+    border-right: hidden;
+    border-top: hidden;
+}
+.first
+{
+    color: red;
+}
+.last
+{
+    color: blue;
+}
+
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        height: 200px;
+    }
+    body,html
+    {
+        margin: 0;
+    }
+    .bg
+    {
+        background-image: url(codegym.jpg);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 900px;
+        float: left;
+    }
+    #main
+    {
+        height: 578px;
+    }
+    .login
+    {
+        float: right;
+        width: 250px;
+        text-align: center;
+        
+    }
+    #codegym
+    {
+        
+        width: 350px;
+        height: 80px;
+    }
+    #signin
+    {
+        text-align: left;
+        width: 300px;
+        color: darkcyan;
+        font-size: 30px;
+    }
+    #check
+    {
+      float: left;
+     
+      height: 50px;
+    }
+    #remember
+    {
+        font-size: 15px;
+    }
+    #forgot
+    {
+        float: right;
+        width: 350px;
+    }
+</style>
+<body>
+    <div id="main">
+        <div class="bg"></div>
+        <div class="login">
+            <form  action="">
+                <p></p>
+                <img id="codegym" src="161783552_456786565442647_2010397602433776771_n.png" alt="img">
+                <p id="signin">Sign In</p>
+                <input type="text" style=" width: 330px; font-size: 20px; height: 15px;" name="" id="" placeholder="Username/Email">
+                <p></p>
+                <input type="password" style=" width: 330px; font-size: 20px; height: 15px;" name="" id="" placeholder="Password">
+                <p></p>
+                <div id="remember">
+                    <input type="checkbox" id="check" name="remember" value="Remember username">Remember username
+                    <a href="" id="forgot">Forgot Password?</a>
+                </div>
+            </form>
+        </div>
+    </div>   
+</body>
+</html>
