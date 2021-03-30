@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function myFunction()
+    {
+        document.getElementById("change").innerHTML="Has change";
+    }
+    function Hello()
+    {
+        alert('hello');
+    }
+    function showMessage(){
+     document.getElementById('messageDiv').innerHTML = "Xin chào!";
+    }
+    var i=10;
+    var f=20.5;
+    var b=true;
+    var s='Hanoi';
+    document.writeln(i);
+    document.writeln(f);
+    document.writeln(b);
+    document.writeln(s);
+    
+
+</script>
+<body>
+    <p id="change">Test</p>
+    <button type="button" onclick="myFunction()">click</button>
+    <button type="button" onclick="Hello()">Click me</button>
+    
+    <button type="button" onclick="showMessage();">Click Me!</button>
+    <div id="messageDiv"></div>
+</body>
+</html>

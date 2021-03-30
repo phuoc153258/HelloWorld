@@ -12,7 +12,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 50%;
+        width: 120px;
         height: 200px;
     }
     body,html
@@ -37,12 +37,10 @@
     {
         float: right;
         width: 250px;
-        text-align: center;
-        
+  
     }
     #codegym
     {
-        
         width: 350px;
         height: 80px;
     }
@@ -53,21 +51,35 @@
         color: darkcyan;
         font-size: 30px;
     }
-    #check
-    {
-      float: left;
-     
-      height: 50px;
+    .check
+    {width: 150px;
+        float: left;
     }
-    #remember
+    .forgot
     {
-        font-size: 15px;
+        width: 330px;
     }
-    #forgot
+    .nut
     {
-        float: right;
-        width: 350px;
+        width: 330px;
+        font-size: 20px; 
+        height: 30px;
+        background-color: blue;
     }
+    #note
+    {
+        font-size: 13px;
+    
+        width: 300px; 
+    }
+    .nutcg
+    {
+         width: 330px;
+        font-size: 20px; 
+        height: 30px;
+        background-color: white;
+    }
+
 </style>
 <body>
     <div id="main">
@@ -82,9 +94,20 @@
                 <input type="password" style=" width: 330px; font-size: 20px; height: 15px;" name="" id="" placeholder="Password">
                 <p></p>
                 <div id="remember">
-                    <input type="checkbox" id="check" name="remember" value="Remember username">Remember username
-                    <a href="" id="forgot">Forgot Password?</a>
+                    <div class="check">
+                        <input type="checkbox" name="Remember user" value="Remember username">Remember user
+                    </div>
+                    <div class="forgot">
+                     <a href="">Forgot Password?</a>
+                    </div>
                 </div>
+                <p></p>
+                <button class="nut">Log in</button>
+           
+                <p id="note">Log in using your account on:</p>
+           
+                <button class="nutcg">CodeGymID</button>
+                <p>Follow Us</p>
             </form>
         </div>
     </div>   
