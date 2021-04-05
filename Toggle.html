@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Bootstrap.css">
+</head>
+<style>
+    .good:checked
+    {
+        background-color: green;
+    }
+    .fast:checked
+    {
+        background-color: orchid;
+    }
+    .cheap:checked
+    {
+        background-color: brown;
+    }
+    
+</style>
+<body>
+    <div class="form-check form-switch">
+        <input class="form-check-input good" type="checkbox" id="good" onclick="Good()" />
+        <label class="form-check-label" for="flexSwitchCheckDefault">
+            Good
+        </label>
+    </div>
+    <div class="form-check form-switch">
+        <input class="form-check-input fast" type="checkbox" id="cheap" onclick="Cheap()" />
+        <label class="form-check-label" for="flexSwitchCheckDefault">
+            Cheap
+        </label>
+    </div>
+    <div class="form-check form-switch">
+        <input class="form-check-input cheap" type="checkbox" id="fast" onclick="Fast()" />
+        <label class="form-check-label" for="flexSwitchCheckDefault">
+            Fast
+        </label>
+    </div>
+</body>
+<script src="Toggle.js"></script>
+</html>
